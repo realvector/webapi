@@ -9,10 +9,21 @@
 </head>
 <body>
     <h1 onclick="welcome()">Web API - Viacep</h1>
-
-
-
-
+    <form method="get" action=".">
+        <label>CEP
+        <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+               onblur="pesquisacep(this.value);" /></label><br><br>
+        <label>Rua
+        <input name="rua" type="text" id="rua" size="60" /></label><br><br>
+        <label>Bairro
+        <input name="bairro" type="text" id="bairro" size="40" /></label><br><br>
+        <label>Cidade
+        <input name="cidade" type="text" id="cidade" size="40" /></label><br><br>
+        <label>Estado
+        <input name="uf" type="text" id="uf" size="2" /></label><br><br>
+        <label>IBGE
+        <input name="ibge" type="text" id="ibge" size="8" /></label><br><br>
+      </form>
     <script src="js/script.js"></script>
 </body>
 </html>

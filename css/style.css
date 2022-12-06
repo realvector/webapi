@@ -1,0 +1,17 @@
+body {
+    background-color: aliceblue;
+    text-align: center;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: darkslateblue;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+form {
+    color: darkblue;
+    font-style: normal;
+}
